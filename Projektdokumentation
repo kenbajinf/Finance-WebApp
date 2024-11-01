@@ -12,7 +12,7 @@ Filip Mitrovic, Cedric Tuma, Raul Gilardoni und Kenan Bajramovic
 |   23.08.2024    | 0.0.1   |  Wir haben uns für ein Finance Webapp entschieden zu implementieren mit Mern Stack und uns darüber informiert. Wir haben begonnen Visual Studio zu Einrichten für unser Projekt. Bei der Einrichtung sind wir auf viele Problemen zugestossen, aber haben auch viel dazugelernt. Die Konfiguartion ist bis jetzt ohne Erfolg. Die Projektdokumentation und das Layout wurden erstellt.|
 |   30.08.2024   | 0.0.2   | Wir haben es nun geschafft Visual Studio richtig einzurichten und haben schon etwas programmieren begonnen. Wir konnten somit schon mal die Grundstruktur erstellen und sehen, wie es etwa aussieht. Die Projektdokumentation wurde Angefangen. |
 |  13.09.2024    | 0.0.3   | Wir haben nun die Optionen für die Eingaben erstellt. Zudem haben wir wieder an der Projektdokummentation gearbeitet. |
-|   20.09.2024    | 0.0.4   | Wir haben das Kreisdiagramm erstellt und wir konnten es zum ersten mal austesten. Zudem wurde die Projektdokumentation einmal komplett überarbeitet und Fehler wurden behoben. |
+|   20.09.2024    | 0.0.4   | Wir haben das Balkendiagramm erstellt und wir konnten es zum ersten mal austesten. Zudem wurde die Projektdokumentation einmal komplett überarbeitet und Fehler wurden behoben. |
 |   27.09.2024   | 1.0.0   | Wir haben nun die Speicherung erstellt und alles restliche inkl. Feinschliff entwickelt. Die Projektdokumentation wurde erweitert.  |
 |   01.11.2024    | 1.0.1   | Wir haben die Projektdokumentation fertiggestellt und die Portfolios gemacht.  |
 
@@ -72,7 +72,7 @@ Technologien: MongoDB, Express.js, React Native, Node.js, Chart.js für Diagramm
 | 1.2  |      Programm wird geöffnet        |    Ausgaben     |        Detaillierte Ansicht der Ausgaben.           |
 | 1.3  |      Programm wird geöffnet        |    Einnahmen & Ausgaben    |    Einnahmen und Ausgaben werden zusammen angezeigt, so dass man ein budget sieht.             |
 | 2.1  |      Programm wird geöffnet        |    Kategorie Essen und Menge an Geld    |    Das Programm zeigt mir an, wie viel ich für Essen ausgegeben habe.              |
-| 2.2  |      Programm wird geöffnet        |    Verschiedene Kategorien und Mengen an Geld    |   Das Programm zeigt mir im Kreisdiagramm an, wie viel ich für was ausgebe.               |
+| 2.2  |      Programm wird geöffnet        |    Verschiedene Kategorien und Mengen an Geld    |   Das Programm zeigt mir im Balkendiagramm an, wie viel ich für was ausgebe.               |
 | 3.1  |      Programm wird geöffnet        |    Alle Einkommens und Ausgabens Daten    |   Es wird angezeigt, wie viel man für was ausgibt und woher das Geld kommt.               |
 | 3.2  |      Programm wird geöffnet        |    (bezogen auf 3.1) Daten ändern    |    Die Daten wurden geändert und ich habe nun ein eigenes Budget erstellt.              |
 | 4.1  |      Programm wird geöffnet        |    Menge die gespaart werden soll    |    Die gespaarte Menge wird in das Budget einberechnet.              |
@@ -102,7 +102,7 @@ Technologien: MongoDB, Express.js, React Native, Node.js, Chart.js für Diagramm
 | 7    | Cedric    | 90 Minuten    | Backend für Kategorienverwaltung und Benutzerdefinierte Kategorien entwickeln |
 | 8    | Raul      | 90 Minuten    | Frontend für Budget- und Zielsetzung mit Progress-Tracking erstellen |
 | 9    | Filip     | 120 Minuten   | Push-Benachrichtigungen für Rechnungen und Zahlungstermine (Integration mit Firebase) |
-| 10   | Kenan/Filip     | 120 Minuten   | Kreisdiagramm zur Darstellung der Finanzen (Integration von Chart.js und Frontend-Visualisierung) |
+| 10   | Kenan/Filip     | 120 Minuten   | Balkendiagramm zur Darstellung der Finanzen (Integration von Chart.js und Frontend-Visualisierung) |
 | 11   | Cedric    | 60 Minuten    | Funktion für automatische, regelmässig wiederkehrende Zahlungen (wie Miete) entwickeln |
 | 12   | Cedric    | 60 Minuten    | Testing und Validierung der API und Endpunkte |
 | 13   | Raul      | 90 Minuten    | Testing und Validierung der Benutzeroberfläche und Funktionalität |
@@ -166,4 +166,4 @@ Für das Projekt "Personal Finance Web App" haben wir den MERN Stack gewählt, d
 
 
 `Fazit:`
-Das Projekt ist äusserst erfolgreich verlaufen, alle Ziele wurden erreicht. Das Programm funktioniert einwandfrei und ermöglicht es den Benutzern, sowohl Text als auch Bilder zu verschlüsseln und wieder zu entschlüsseln.
+Wir hatten zu Beginn einige Probleme, vorallem, da wir uns in einem neuen Gebiet bewegt haben. Fast alle Probleme konnten gelöst werden, jedoch haben wir es nicht geschafft die Push-notifications zum laufen zu bringen.
